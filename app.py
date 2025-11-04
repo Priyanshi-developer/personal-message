@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Secret Message App", page_icon="💖", layout="centered")
 
 # ------------------ PASSWORD PROTECTION ------------------
-PASSWORD = "1234"
+PASSWORD = "devil"
 
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
@@ -55,3 +55,4 @@ else:
                 <h2 style='color:red; font-size:2em;'>❤️ I Love You ❤️</h2>
             </div>
         """, unsafe_allow_html=True)
+
